@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+.navbar-container {
+  display: flex;
+  background: #f55a5a;
+  height: 55px;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-logo {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+}
+
+.nav-header {
+  color: white;
+  margin-left: 8px;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -0.075em;
+}
+
+.card-container {
+  width: 471px;
+  height: 168px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.card-details-container {
+  margin-left: 20px;
+}
+
+.card-image {
+  width: 125px;
+  height: 168px;
+
+  border-radius: 5px;
+}
+
+.card-header {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.card-google-maps-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+  margin-left: 12px;
+}
+
+.card-location {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+  margin-left: 4px;
+  text-transform: uppercase;
+}
+
+.card-pin-image {
+  width: 7px;
+  height: 10px;
+}
+
+.card-travel-dates {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-travel-description {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #2b283a;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 500px;
+}
+
+.card-top-line {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-bottom-line {
+  max-width: 471px;
+  opacity: 0.15;
+}
